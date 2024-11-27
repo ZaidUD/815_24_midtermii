@@ -1,8 +1,20 @@
-import argparse
+"""
+This template will help you solve the coding problem in the midterm.
+
+This script contains a function to help you read the command-line 
+arguments and some other to give you an initial structure with some
+hints in the comments.
+
+Import the necessary libraries and define any functions required for 
+your implementation.
 
 """
-Create your model
-"""
+
+import argparse
+
+# Create your model
+
+# Create your data loader
 
 def read_args():
     """This function reads the arguments 
@@ -34,6 +46,18 @@ def train():
     """
     Do everything related to the training of your model
     """
+
+    # Instantiate your model
+
+    # Instantiate your datasets
+
+    # Instantiate your dataloaders
+
+    # Setup your optimizer
+
+    # Implement the training loop
+
+    # Save the model
 
     print('Start training')
 
