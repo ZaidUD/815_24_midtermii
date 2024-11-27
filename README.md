@@ -43,4 +43,4 @@ python nestor_999999.py True ./model_checkpoint/nestor_999999.pth ./midterm2_tes
 ### Additional Notes:
 - **File Formats:** Ensure your `.npy` files are correctly formatted and compatible with the evaluation script.  
 - **Coding Style:** Write clean, well-documented code. Use appropriate comments where necessary to explain key parts of your implementation.  
-- **Testing Your Script:** Test your script thoroughly to ensure it works as intended with different datasets.  
+- **Testing Your Script:** Test your script thoroughly to ensure it works as intended.
