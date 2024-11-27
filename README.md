@@ -18,23 +18,24 @@ Your model's performance will be evaluated on a hidden testing set.
 
 #### Submission Requirements:
 You must submit the following two files:
-1. A Python script named `[studentname_udid].py`  
+1. A Python script named `[studentname_udid].py` with all the code.
 2. A checkpoint file of your trained model saved as `[studentname_udid].pth`  
 
 #### Python Script Requirements:
-Your script, `[studentname_udid].py`, must accept the following command-line arguments:  
-1. Path to the checkpoint file  
-2. Path to the testing dataset (formatted similarly to `midterm2_training_data.npy`)  
-3. Path to the output directory  
+Your script, `[studentname_udid].py`, must accept the following command-line arguments:
+1. Boolean value that sets the testing state
+2. Path to the checkpoint file  
+3. Path to the testing dataset (formatted similarly to `midterm2_training_data.npy`)  
+4. Path to the output directory
 
 The script must perform the following tasks:  
-1. Load the trained model from the provided checkpoint.  
+1. Load the trained model from the checkpoint.  
 2. Pass the testing data through the model to generate predictions.  
-3. Save the predicted labels as a `.npy` file named `[studentname_udid].npy` in the specified output directory. The predicted labels should have the same format as `midterm2_training_labels.npy`.  
+3. Save the predicted labels as a `.npy` file named `[studentname_udid].npy` in the specified output directory. The predicted labels should have the same format as `midterm2_training_labels.npy`. 
 
 #### Example Command:
 ```bash
-python nestor_999999.py ./model_checkpoint/nestor_999999.pth ./midterm2_testing_data.npy ./predictions/
+python nestor_999999.py True ./model_checkpoint/nestor_999999.pth ./midterm2_testing_data.npy ./predictions/
 ```
 
 ---
